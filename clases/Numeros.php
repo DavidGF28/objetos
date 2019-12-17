@@ -3,20 +3,16 @@
 namespace clases;
 
 class Numeros extends Vector{
-    public function __construct($valores = array()) {
-        parent::__construct($valores);
-    }
-    public function getMaximo() {
-       if (empty($this->getValores()))
-           $this->maximo=null;
-       //else
-    }
-    
-    public function getModa() {
-      
+    private $media;
+    public function getMedia(){
+        
     }
 
     public function setModa(){
         $this->moda=10;
     }
+        public function __construct($valores = []) {
+        parent::__construct($valores);
+        $this->setModa();}
+
 }

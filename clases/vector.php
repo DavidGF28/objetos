@@ -42,7 +42,7 @@ class Vector {
     }
 
         private $valores;
-        private $moda;
+        protected $moda;
         private $maximo;
     
 }
