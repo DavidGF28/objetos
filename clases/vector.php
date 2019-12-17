@@ -33,7 +33,7 @@ class Vector {
         $this->setMaximo();
     }
     
-    public function setModa(){
+    protected function setModa(){
         $this->moda=1;
     }
     
