@@ -4,8 +4,9 @@ namespace clases;
 
 class Numeros extends Vector{
     private $media;
+    
     public function getMedia(){
-        
+        return $this->media;    
     }
 
     public function setModa(){
